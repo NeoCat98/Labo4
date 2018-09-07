@@ -1,0 +1,99 @@
+.header_flex{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 1em;
+    border-bottom: solid 1em  #f56a6a;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 0.5em;
+}
+
+h1>span{
+    color: #7f888f;
+}
+
+a>i{
+    color: #7f888f;
+}
+
+nav{
+    margin-top: 1.5em;
+}
+
+nav>a{
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 2em;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f;
+}
+
+input[type="button"]{
+    border: 0.1em solid #f56a6a;
+    background: white;
+    padding: 0.5em 3em;
+    color: #f56a6a;
+    border-radius: 0.25em;
+}
+
+input[type="button"]:hover{
+    background: #f56a6a;
+    color: white;
+}
+
+.flex_content{
+    margin: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_content div {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+img{
+    height: 100%;
+    width: 50%;
+}
+
+div>i{
+    color: #f56a6a;
+}
+
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.container{
+    border-top: solid 0.15em #C7CDD1;
+    display: grid;
+}
+
+.contenido{
+    border-bottom: solid 0.25em #f56a6a;
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.contenido1{
+    
+    grid-area: 2 / 2 / 2 / 2;
+
+}
+
+.contenido2{
+    grid-area: 3 / 3 / 3 / 3;
+    
+}
